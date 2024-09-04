@@ -17,11 +17,11 @@ function Footer() {
 	return (
 		<footer className={styles.lmjfooter}>
 			<div className={styles.lmjfooterelem}>
-				Pour les passionné·e·s de plantes 🌿🌱🌵
+			For plant enthusiasts 🌿🌱🌵
 			</div>
-			<div className={styles.lmjfooterelem}>Laissez-nous votre mail :</div>
+			<div className={styles.lmjfooterelem}>Leave us your email : </div>
 			<input
-				placeholder='Entrez votre mail'
+				placeholder='Type your email here'
 				onChange={handleInput}
 				value={inputValue}
 				onBlur={handleBlur}
