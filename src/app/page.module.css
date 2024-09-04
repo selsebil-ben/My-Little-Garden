@@ -18,7 +18,7 @@
     transition: background-color 0.3s ease; /* Adds a transition effect for background color changes */
 }
 .otherbutton {
-    background-color: #a4a3a8de; /* Sets the background color of the button to green */
+    background-color: #eaa91dde; /* Sets the background color of the button to green */
     color: white; /* Sets the text color to white for contrast */
     border: none; /* Removes the default border */
     padding: 10px 20px; /* Adds padding inside the button */
@@ -67,7 +67,7 @@
 }
 .lmjcart {
 	color: white;
-	background-color: #31b572;
+	background-color: #0a8633;
 	padding: 32px;
 	display: flex;
 	flex-direction: column;

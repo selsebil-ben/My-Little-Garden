@@ -13,12 +13,19 @@ function Cart({ cart, updateCart } : any) {
 
 	return isOpen ? (
 		<div className={styles.lmjcart}>
-			<button
-				className={styles.lmjcarttogglebutton}
-				onClick={() => setIsOpen(false)}
+			
+            {/* className={styles.lmjcarttogglebutton} */}
+			<button 
+			type="button" 
+			className="btn btn-warning  "
+			
+			onClick={() => setIsOpen(false)}
 			>
-				Close
-			</button>
+				<i className="fas fa-shopping-cart"></i>
+				<br/>
+				Close 
+			</button> 
+			<br/> <br/>
 			{cart.length > 0 ? (
 				<div>
 					<h2>Cart</h2>
@@ -33,17 +40,25 @@ function Cart({ cart, updateCart } : any) {
 					<button className={styles.otherbutton} onClick={() => updateCart([])}>Clear your Cart</button>
 				</div>
 			) : (
-				<div className='text-danger'>Your Cart is empty !</div>
+				<div >Your Cart is empty !</div>
 			)}
 		</div>
 	) : (
 		<div className={styles.lmjcartclosed}>
 			<button
-				className={styles.lmjcarttogglebutton}
-				onClick={() => setIsOpen(true)}>
+				
+				
 			
-				Open the cart
-			</button>
+				
+				
+			type="button" 
+			className="btn btn-success"
+			
+			onClick={() => setIsOpen(true)}>
+				 <i className="fas fa-shopping-cart"></i>
+				 <br/> 
+				Open
+			</button> 
 		</div>
 	)
 }
