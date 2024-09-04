@@ -30,7 +30,7 @@ export const plantList = [
 	},
 
 	{
-		name: 'pothos argenté',
+		name: 'Silver Pothos',
 		category: 'Classic',
 		id: '3sd',
 		light: 1,
@@ -50,7 +50,7 @@ export const plantList = [
 		price: 20
 	},
 	{
-		name: 'olivier',
+		name: 'Olive tree',
 		category: 'Outdoor',
 		id: '5pl',
 		light: 3,
@@ -69,7 +69,7 @@ export const plantList = [
 		price: 6
 	},
 	{
-		name: 'basilique',
+		name: 'basil',
 		category: 'Outdoor',
 		id: '7ie',
 		bestSale: true,
@@ -79,7 +79,7 @@ export const plantList = [
 		price: 5
 	},
 	{
-		name: 'succulente',
+		name: 'Succulent',
 		category: 'Succulent',
 		id: '9vn',
 		light: 2,
@@ -89,7 +89,7 @@ export const plantList = [
 	},
 
 	{
-		name: 'menthe',
+		name: 'mint',
 		category: 'Outdoor',
 		id: '6uo',
 		light: 2,
