@@ -8,7 +8,7 @@ function Cart({ cart, updateCart } : any) {
 		0
 	)
 	useEffect(() => {
-		document.title = `LMJ: ${total}€ d'achats`
+		document.title = `MLG: ${total}€ in cart`
 	}, [total])
 
 	return isOpen ? (
@@ -33,15 +33,15 @@ function Cart({ cart, updateCart } : any) {
 					<button className={styles.otherbutton} onClick={() => updateCart([])}>Clear your Cart</button>
 				</div>
 			) : (
-				<div>Your Cart is empty !</div>
+				<div className='text-danger'>Your Cart is empty !</div>
 			)}
 		</div>
 	) : (
 		<div className={styles.lmjcartclosed}>
 			<button
 				className={styles.lmjcarttogglebutton}
-				onClick={() => setIsOpen(true)}
-			>
+				onClick={() => setIsOpen(true)}>
+			
 				Open the cart
 			</button>
 		</div>
