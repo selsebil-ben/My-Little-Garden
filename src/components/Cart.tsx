@@ -40,7 +40,7 @@ function Cart({ cart, updateCart } : any) {
 					<button className={styles.otherbutton} onClick={() => updateCart([])}>Clear your Cart</button>
 				</div>
 			) : (
-				<div >Your Cart is empty !</div>
+				<div className='d-flex align-items-center justify-content-center'>Your Cart is empty !</div>
 			)}
 		</div>
 	) : (

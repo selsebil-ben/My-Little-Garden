@@ -16,7 +16,13 @@ function Categories({ setActiveCategory, categories, activeCategory }: any) {
 					</option>
 				))}
 			</select>
-			<button  className={styles.otherbutton} onClick={() => setActiveCategory('')}>Reset Category</button>
+			{/* <button  className={styles.otherbutton} onClick={() => setActiveCategory('')}>Reset Category</button> */}
+			<button 
+			type="button" 
+			className="btn btn-warning text-white"
+			onClick={() => setActiveCategory('')}>
+				Reset Category 
+			</button> 
 		</div>
 	)
 }
