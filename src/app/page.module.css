@@ -1,0 +1,168 @@
+
+.buttontop {
+	background-color:#00ad85de;
+	
+}
+.greenbutton {
+    background-color: #f78213de; /* Sets the background color of the button to green */
+    color: white; /* Sets the text color to white for contrast */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Sets the font size */
+    font-family: Arial, sans-serif; /* Sets the font family */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    text-align: center; /* Centers the text inside the button */
+    display: inline-block; /* Allows the button to be inline with other elements */
+    text-decoration: none; /* Removes underline from the button if it is a link */
+    transition: background-color 0.3s ease; /* Adds a transition effect for background color changes */
+}
+.otherbutton {
+    background-color: #a4a3a8de; /* Sets the background color of the button to green */
+    color: white; /* Sets the text color to white for contrast */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Sets the font size */
+    font-family: Arial, sans-serif; /* Sets the font family */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    text-align: center; /* Centers the text inside the button */
+    display: inline-block; /* Allows the button to be inline with other elements */
+    text-decoration: none; /* Removes underline from the button if it is a link */
+    transition: background-color 0.3s ease; /* Adds a transition effect for background color changes */
+}
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.lmjbanner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.lmjtitle {
+	padding-left: 32px;
+}
+
+.lmjlogo {
+	height: 45px;
+	width: 45px;
+}
+.lmjcart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+.lmjcartaddbutton {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmjcarttogglebutton {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+.lmjcartclosed {
+	padding: 32px;
+	width: 300px;
+}
+
+.lmjcartclosed > button {
+	color: black;
+}
+.lmjcategories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lmjcategoriesselect {
+	margin-right: 15px;
+}
+.lmjfooter {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+.lmjfooterelem {
+	margin-bottom: 10px;
+}
+.lmjlayoutinner {
+	display: flex;
+	flex-direction: row;
+}
+
+.lmjplantitemcover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.lmjplantitem {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.lmjplantitemprice {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+.lmjshoppinglist {
+	width: 100%;
+}
+
+.lmjplantlist {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
