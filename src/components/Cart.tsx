@@ -17,11 +17,11 @@ function Cart({ cart, updateCart } : any) {
 				className={styles.lmjcarttogglebutton}
 				onClick={() => setIsOpen(false)}
 			>
-				Fermer
+				Close
 			</button>
 			{cart.length > 0 ? (
 				<div>
-					<h2>Panier</h2>
+					<h2>Cart</h2>
 					<ul>
 						{cart.map(({ name, price, amount } : any, index : any) => (
 							<div key={`${name}-${index}`}>
@@ -33,7 +33,7 @@ function Cart({ cart, updateCart } : any) {
 					<button className={styles.otherbutton} onClick={() => updateCart([])}>Clear your Cart</button>
 				</div>
 			) : (
-				<div>Votre panier est vide</div>
+				<div>Your Cart is empty !</div>
 			)}
 		</div>
 	) : (
@@ -42,7 +42,7 @@ function Cart({ cart, updateCart } : any) {
 				className={styles.lmjcarttogglebutton}
 				onClick={() => setIsOpen(true)}
 			>
-				Ouvrir le Panier
+				Open the cart
 			</button>
 		</div>
 	)

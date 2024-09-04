@@ -50,7 +50,7 @@ function App() {
 
 				 {/*<img src={logo} alt='logo-la-maison-jungle' className={styles.lmjlogo} /> */}
 
-				<h1 className={styles.lmjtitle}>Welcome to Abdou Jungle</h1>
+				<h1 className={styles.lmjtitle}>My Little Garden</h1>
 			</Banner>
 			<div className={styles.lmjlayoutinner}>
 				<Cart cart={cart} updateCart={updateCart} />
