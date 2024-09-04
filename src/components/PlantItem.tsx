@@ -11,7 +11,7 @@ type Item = {
 }
 
 function handleClick(plantName: string) {
-	alert(`Vous voulez acheter 1 ${plantName}? Très bon choix 🌱✨`)
+	alert(`Do you want to buy a ${plantName} ? Excellent choice 🌱✨`)
 }
 
 function PlantItem({ cover, name, water, light, price }: Item) {
